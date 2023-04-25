@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra&family=Montserrat&family=Norican&display=swap");
+
+body {
+	background-color: linen;
+	background-image:url("pex.jpg");
+	/* background-image: linear-gradient(rgb(86, 93, 93), rgb(179, 188, 197)); */
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.heading {
+	display: flex;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top:10%;
+	text-shadow:  3px 2px #f8c293;
+	
+}
+
+@keyframes animate_heading {
+	from {
+		color: rgb(36, 35, 36);
+	}
+	to {
+		color: white;
+        
+	}
+	from {
+		font-size: 3em;
+	}
+	to {
+		font-size: 3em;
+	}
+}
+
+h1,
+h3{
+	color: rgb(232, 236, 232);
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 2.5em;
+	animation-name: animate_heading;
+	animation-duration: 6s;
+	animation-timing-function: 1s;
+	display: inline-block;
+	
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	background-color:rgb(49, 47, 47);
+	position:sticky;
+	top:0;
+	
+	
+
+	
+	
+	
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+	
+}
+
+.navbar ul li {
+	font-size: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 30px 10px;
+	transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+	background-color: white;
+	color: pink;
+	box-shadow: 0 0 5px pink;
+}
+
+.btn{
+	padding: 10px 35px;
+    background-color: blue;
+    border: 1px solid white;
+    color:white;
+	font-weight: bold;
+    outline:none;
+    transition: .6s ease;
+	font-size: larger;
+	
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 5px white, 0 0 10px white ,0 0 15px white;
+    font-weight: bold;
+    padding:20px;
+}
+
+#hire_button{
+	justify-content: center;
+	display: flex;
+}
+
+
+.links{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+.links a {
+	color: white;
+	font-size: 2em;
+    margin: 10px;
+	padding: 3px;
+	
+   
+}
+
+#home_pic {
+	margin-top: 30%;
+	display: inline-block;
+}
+
+ #mybio{
+font-size: 3em;
+color:blueviolet
+}
+
+
+#first_paragraph {
+	border: 1px rgb(16, 19, 16) solid;
+	margin-left: 46%;
+	margin-top: -40%;
+    color:brown;
+	padding:30px;
+	box-shadow: 10px 2px rgb(65, 64, 64);
+
+}
+#first_paragraph:hover{
+	background-color:rgb(214, 243, 233);
+	font-size: larger;
+	transition: 0px 6s;
+
+}
+
+#experience {
+	margin-top: 19%;
+	font-weight: bold;
+
+}
+
+#exp_paragraph {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: 350px;
+	border: 1px solid black;
+	margin: 10px;
+	align-items: center;
+	text-align: justify;
+	padding: 10px;
+	border-radius: 15px;
+	background-color:rgb(198, 58, 58);
+	color: white;
+}
+
+#exp_paragraph2 {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: 350px;
+	border: 1px solid black;
+	margin: 10px;
+	align-items: center;
+	text-align: justify;
+	padding: 10px;
+	border-radius: 15px;
+	background-color:rgb(245, 136, 136);
+	color: white;
+}
+
+#portfolio{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -24%;
+	
+}
+
+
+form{
+
+
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	/* box-sizing: border-box */
+	
+
+}
+
+.headings{
+	justify-content: center;
+	display: flex;
+	color:black;
+
+
+}
+
+.input{
+	margin:15px;
+	
+}
+
+#send{
+	margin:5px;
+	padding:3px;
+
+}
+
+#send:hover{
+	background-color:white;
+	/* box-shadow: red white red ; */
+	border:pink;
+}
+
+#images img{
+width:300px;
+
+}
+
+#last_heading a{
+	text-decoration:none;
+}
